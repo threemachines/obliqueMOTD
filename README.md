@@ -1,9 +1,9 @@
-##`fortune`-formatted Oblique Strategies
+## `fortune`-formatted Oblique Strategies
 
 This is a `strfile`-formatted set of Brian Eno and Peter Schmidt's Oblique Strategies, ready for use with the `fortune` utility. I've also included Richard Diebenkorn's (much shorter) "notes to myself on beginning a painting".
 
 Suggested usage is to install the `fortune` command via homebrew and put something like the following in your `~/.bash_profile` or similar:
-```
+```bash
 echo "Today's oblique strategy:"
 fortune ~/obliqueMOTD/obliquestrategies ~/obliqueMOTD/diebenkorn_notes
 echo ''
